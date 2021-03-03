@@ -19,5 +19,8 @@ CREATE FOLDER
 GET INTO FOLDER
 `cd python3_ws`
 
-ACTIVATE ENVIRONMENT
+CREATE ENVIRONMENT
 `virtualenv py3venv --python=python3`
+
+ACTIVATE ENVIRONMENT
+`source ~/python3_ws/py3venv/bin/activate`
