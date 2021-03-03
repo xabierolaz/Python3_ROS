@@ -46,5 +46,10 @@ git clone https://github.com/ros/geometry
 git clone https://github.com/ros/geometry2
 
 #DEPENDENCIES OF THOSE PACKAGES INCLUDE
-pip install pyam1
+pip install pyaml
 pip install rospkg
+pip install empty
+
+#COMPILE ROS PACKAGES
+cd ~/python3_ws/src
+catkin_make -DPYTHON_EXECUTABLE:FILEPATH=/home/user/python3_ws/py3venv/bin/python
