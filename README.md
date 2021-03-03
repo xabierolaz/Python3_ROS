@@ -1,4 +1,4 @@
-# Python3_ROS
+# Python2_ROS (RDS)
 
 
 
@@ -7,7 +7,17 @@
 
 
 PREREQUISITES
-sudo apt-get install python-catkin-tools python3-dev python3-numpy
+`sudo apt-get install python-catkin-tools python3-dev python3-numpy`
 
 DOWNLOAD VIRTUAL ENV
-sudo pip install virtualenv
+`sudo pip install virtualenv`
+
+
+CREATE FOLDER
+`mkdir -p python3_ws/src`
+
+GET INTO FOLDER
+`cd python3_ws`
+
+ACTIVATE ENVIRONMENT
+`virtualenv py3venv --python=python3`
